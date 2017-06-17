@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="testLocalScope" pattern="console.log" />
+</component>
