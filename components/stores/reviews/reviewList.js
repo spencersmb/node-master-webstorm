@@ -3,26 +3,20 @@ import Review from './review'
 import React from 'react'
 import { connect } from 'react-redux'
 
-// interface ReviewType {
-//   +_id: String,
-//   +store: String,
-//   +text: String,
-//   +rating: Number
-// }
 type AuthorType = {
-  _id: String,
-  name: String,
-  email: String,
-  gravatar: String,
-  hearts: String[]
+  _id: string,
+  name: string,
+  email: string,
+  gravatar: string,
+  hearts: string[]
 }
 
 type ReviewType = {
-  +_id: String,
-  +store: String,
-  +text: String,
+  +_id: string,
+  +store: string,
+  +text: string,
   +rating: number,
-  +created: String,
+  +created: string,
   +author: AuthorType
 }
 

@@ -93,9 +93,7 @@ class StoreCard extends React.Component {
 }
 const mapDispatchToProps = dispatch => {
   return {
-
     heartStore: bindActionCreators(heartAction, dispatch)
-
   }
 }
 export default connect(null, mapDispatchToProps)(StoreCard)
