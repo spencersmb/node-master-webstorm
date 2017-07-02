@@ -1,5 +1,5 @@
 // @flow
-import type { Review } from '../../../flowTypes/Review'
+import type {Review} from '../../../flowTypes/Review'
 
 type Props = Review
 
